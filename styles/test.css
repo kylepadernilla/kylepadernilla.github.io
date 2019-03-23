@@ -104,10 +104,6 @@ body, html{
   }
 }
 
-.navbar, .navbar-brand {
-  font-family: 'Montserrat', cursive;
-}
-
 
 .avatar,.image {
     margin: 50px;
