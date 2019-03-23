@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Kyle Padernilla</title>
+   <link rel="icon" type="image/ico" href="images/bigger.jpg" />
+  <link rel="stylesheet" href="styles/test.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+   <link rel="stylesheet"  href="https://fonts.googleapis.com/css?family=Roboto">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+   <!--Bootstrap -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+   <script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+
+</script>
+
+</head>
+
+<body>
+
+    <div id="topheader">
+
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarCollapse">
+<ul class="navbar-nav mr-auto">
+  <li class="nav-item active">
+    <a class="nav-link" href="#topheader">Home<span class="sr-only">(current)</span></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#AboutMe">About</a>
+</li>
+  <li class="nav-item">
+    <a class="nav-link" href="#Upcoming">Projects</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="blogsites/kyle_blog.html">Blog</a>
+  </li>
+</ul>
+</div>
+</nav>
+</div>
+    <div class="pimg1">
+      <img class="avatar">
+            <img class="image" src="images/linkedin.jpg"> </img>
+      </img>
+            <div id="AboutMe" class="ptext2">
+                    <span class="border"> Kyle Padernilla
+                    </span>
+                    <div class="job_title">
+                         Aspiring Software Developer
+                    </div>
+            </div>
+    </div>
+  <div  class="pimg3">
+      <div class="container marketing">
+
+   <!-- Three columns of text below the carousel -->
+   <div class="row">
+     <svg viewBox="0 0 8 8"><use xlink:href="#person"></use></svg>
+     <div class="col-lg-4">
+
+       <h2><b>Who Am I?</b></h2>
+
+
+       <p>
+          Hello! My name is Kyle and I am an aspiring Software Developer taking life's
+          challenges one line of code at a time.</br>
+          I have a strong interest in Software Development
+          especially Web Development and Mobile Applications Development. I am also
+          interested in Data Analytics and Database Management.
+          I am actively seeking for new and exciting opportunities to improve as a programmer, entrepreneur and professional.
+
+       </p>
+
+
+     </div><!-- /.col-lg-4 -->
+     <div class="col-lg-4">
+
+       <h2><b>What Am I Doing?</b></h2>
+       <p>Currently I am an undergrad student at Ryerson University, majoring in Computer Science
+        and also pursuing a Minors Degree in Economics. I wanted to create my own website to show projects
+        I am currently working on, one being this very website which I wrote in HTML/CSS and Bootstrap.
+        I also want to improve my analytical and software development skills by challenging myself in
+        everything I do.
+        </p>
+     </div><!-- /.col-lg-4 -->
+     <div class="col-lg-4">
+
+       <h2><b>Anything Else?</b></h2>
+       <p>
+        I also want to create blog content to talk about various topics that I take interest in.
+        For example, I am also very interested in Economics and would like to explain why I think
+        taking both Economics and Computer Science is very helpful and a good combination for
+        future undergraduate students.
+       </p>
+
+     </div><!-- /.col-lg-4 -->
+   </div><!-- /.row -->
+    </div>
+
+  <section class="section section-dark">
+    <h2></h2>
+    <p>
+      "You get the chicken by hatching the egg, not smashing it."
+      - Confucius
+    </p>
+  </section>
+
+  <div class="pimg2" id="Upcoming">
+    <div class="ptext">
+        <span class="border trans">
+        Upcoming Projects
+            </span>
+    </div>
+  </div>
+
+  <div class="pimg4">
+    <div class="ptext3">
+      Imperium Co. </br>
+      Hero </br>
+       & Many more...
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h2></h2>
+    <p>
+      Coming soon!
+    </p>
+  </section>
+</body>
+</html>
