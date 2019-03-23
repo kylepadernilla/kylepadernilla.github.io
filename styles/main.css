@@ -1,50 +1,50 @@
-body{
-
-  background-color: white;
-  font-family: arial;
+body, html{
+  background-image:url('../images/transparent.png');
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
 }
 
-h1 {
-  font-family: 'Montserrat';
-  position: relative;
-   left:35px;
+.pimg1{
+  position:relative;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
 }
 
-.navbar-brand{
-  font-family: 'Montserrat';
 
+
+
+@media(max-width:568px){
+  .pimg1, .pimg2, .pimg3, .pimg4{
+    background-attachment:scroll;
+  }
 }
 
-.header .container {
-  position: relative;
-  top: 18px;
-  left: 10px;
-}
-
-.header{
-  font-size: 10em;
-  vertical-align: middle;
+.navbar, .navbar-brand {
   font-family: 'Montserrat', cursive;
-  padding-left: 1px;
+
 }
 
-.jumbotron{
-    font-size: 3em;
-    font-family: 'Dosis';
-    background-color:gray;
-    color:white;
-    text-align: center;
+.blog_portion{
+position:relative;
+top:100px;
+padding:20px;
+
 }
 
-.jumbotron-special{
-    font-size: 3em;
-    font-family: 'Dosis';
-    background-color:gray;
-    color:white;
-     text-align: center;
-}
-
-.jobTitle ,.ceoName{
-  font-size: 2em;
-  font-family: 'Dosis';
+.blog_portion .blog-post{
+  color:#111;
+  background-color:#fff;
+  font-family: 'Montserrat', cursive;
+  text-align: left;
 }

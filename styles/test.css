@@ -106,7 +106,15 @@ body, html{
 
 .navbar, .navbar-brand {
   font-family: 'Montserrat', cursive;
+  position:absolute;
+  bottom:90%;
 
+}
+
+.navbar-nav, .navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
 }
 
 .avatar,.image {
@@ -148,6 +156,7 @@ body, html{
 .marketing p, h2{
  background-color:#111;
  font-family: 'Montserrat', cursive;
+ text-align: center;
 }
 
 .job_title{
