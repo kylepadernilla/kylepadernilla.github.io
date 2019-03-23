@@ -1,0 +1,50 @@
+body{
+
+  background-color: white;
+  font-family: arial;
+}
+
+h1 {
+  font-family: 'Montserrat';
+  position: relative;
+   left:35px;
+}
+
+.navbar-brand{
+  font-family: 'Montserrat';
+
+}
+
+.header .container {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+
+.header{
+  font-size: 10em;
+  vertical-align: middle;
+  font-family: 'Montserrat', cursive;
+  padding-left: 1px;
+}
+
+.jumbotron{
+    font-size: 3em;
+    font-family: 'Dosis';
+    background-color:gray;
+    color:white;
+    text-align: center;
+}
+
+.jumbotron-special{
+    font-size: 3em;
+    font-family: 'Dosis';
+    background-color:gray;
+    color:white;
+     text-align: center;
+}
+
+.jobTitle ,.ceoName{
+  font-size: 2em;
+  font-family: 'Dosis';
+}
