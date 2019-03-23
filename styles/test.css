@@ -104,6 +104,9 @@ body, html{
   }
 }
 
+.navbar-nav.mr-auto li a{
+     font-family: 'Montserrat', cursive;
+}
 
 .avatar,.image {
     margin: 50px;
