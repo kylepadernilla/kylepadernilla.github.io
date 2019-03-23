@@ -111,11 +111,6 @@ body, html{
 
 }
 
-.navbar-nav, .navbar-center {
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-}
 
 .avatar,.image {
     margin: 50px;
