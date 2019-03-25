@@ -4,7 +4,7 @@ body, html{
   font-size:16px;
   font-family:"Lato", sans-serif;
   font-weight:400;
-  line-height:1.8em;
+  line-height:2.0em;
 }
 
 .pimg1, .pimg2, .pimg3, .pimg4{
@@ -14,8 +14,8 @@ body, html{
   background-repeat:no-repeat;
 
   /*
-    fixed = parallax
-    scroll = normal
+  fixed = parallax
+  scroll = normal
   */
   background-attachment:fixed;
 }
@@ -32,7 +32,7 @@ body, html{
 
 .pimg3{
   background-image:url('../images/image3.jpg');
-  min-height:400px;
+  min-height:500px;
 }
 
 .pimg4{
@@ -43,7 +43,7 @@ body, html{
 
 .section{
   text-align:center;
-  padding:50px 80px;
+  padding: 20px;
 }
 
 .section-light{
@@ -86,15 +86,15 @@ body, html{
 }
 
 .ptext3{
-    position:absolute;
-     background-color:transparent;
-    top:30%;
-    width:100%;
-    text-align:center;
-    color:#000;
-    font-size:27px;
-    letter-spacing:8px;
-    text-transform:uppercase;
+  position:absolute;
+  background-color:transparent;
+  top:30%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
 }
 
 
@@ -105,55 +105,43 @@ body, html{
 }
 
 .navbar-nav.mr-auto li a{
-     font-family: 'Montserrat', cursive;
+  font-family: 'Montserrat', cursive;
 }
 
 .avatar,.image {
-    margin: 50px;
-    border-radius: 50%;
+  margin: 50px;
+  border-radius: 50%;
 
 }
 .image{
-    display: block;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    width:255px;
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width:255px;
 }
 
-.container {
+.container.marketing {
   position: relative;
-  top: 18px;
+  top: 30px;
   left: 10px;
 }
 
 /* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
-  margin-bottom: 1.5rem;
+.container.marketing{
+  color:#fff;
+}
+  .marketing p,.marketing h2{
+  background-color:#111;
+  font-family: 'Montserrat', cursive;
   text-align: center;
-}
-.marketing h2 {
-  font-weight: 400;
-}
-.marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
-}
-
-.marketing{
-    color:#fff;
-    padding:20px;
-}
-.marketing p, h2{
- background-color:#111;
- font-family: 'Montserrat', cursive;
- text-align: center;
+  padding:20px;
 }
 
 .job_title{
-font-size:20px;
-font-family: 'Roboto';
-position:relative;
-top:30px;
-width:100%;
+  font-size:20px;
+  font-family: 'Roboto';
+  position:relative;
+  top:30px;
+  width:100%;
 }
