@@ -10,6 +10,7 @@ function printDoc1(){
   return "<img class=\"hero\" src=images/myhero.jpg> </img>";
 
 }
+
 function checkTime() {
   var time = new Date();
   var mins = time.getMinutes();
@@ -19,7 +20,7 @@ function checkTime() {
 
   var secs = time.getSeconds();
 
-//This is a countdown script for seconds. Really useful.
+//This is a countdown code for seconds. Really useful.
 /*
   if (secs != 60)
   { secs = (59-secs) % 60; }
