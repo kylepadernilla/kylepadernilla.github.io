@@ -30,6 +30,7 @@ function checkTime() {
 */
 
 //Adds a 0 in the front of the seconds when it runs.
+mins= (mins < 10) ? "0" + mins :mins;
 secs = (secs < 10) ? "0" + secs : secs;
 
 if(hours > 12){
