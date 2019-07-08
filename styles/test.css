@@ -106,6 +106,13 @@ body, html{
 
 .navbar-nav.mr-auto li a{
   font-family: 'Montserrat', cursive;
+
+}
+
+.navbar-nav.mr-auto{
+position: relative;
+ left: 50%;
+ transform: translatex(-50%);
 }
 
 .avatar,.image {
