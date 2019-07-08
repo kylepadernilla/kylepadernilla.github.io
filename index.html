@@ -20,6 +20,7 @@
   <!--Smooth Transition javascript file -->
   <script src= "smoothTransition.js"></script>
 
+  <script src= "script.js" async></script>
 </head>
 
 <body>
@@ -35,13 +36,17 @@
           <li class="nav-item1 active">
             <a class="nav-link" href="#topheader">Home<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item2">
+          <li class="nav-item">
             <a class="nav-link" href="#AboutMe">About</a>
           </li>
-          <li class="nav-item3">
-            <a class="nav-link" href="#Upcoming">Projects</a>
+          <li class="nav-item">
+            <a class="nav-link dropdown-toggle"id="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                  <a class="dropdown-item" href="">BTH Function Runner</a>
+                  <a class="dropdown-item" href="">Speed Typing Test</a>
+                </div>
           </li>
-          <li class="nav-item4">
+          <li class="nav-item">
             <a class="nav-link" href="#">Blog</a>
           </li>
         </ul>
@@ -108,29 +113,16 @@
   </div>
 </div>
 
-  <!--<section class="section section-dark">
-    <p>
-      "You get the chicken by hatching the egg, not smashing it."
-      - Confucius
-    </p>
-  </section>
-  -->
 
   <div class="pimg2" id="Upcoming">
     <div class="ptext">
       <span class="border trans">
-        Upcoming Projects
+        Projects
       </span>
     </div>
   </div>
 
-  <div class="pimg4">
-    <div class="ptext3">
-      Imperium Co. </br>
-      Various Productivity Applications</br>
-      & Many more...
-    </div>
-  </div>
+
 
   <section class="section section-dark">
     <div class="second">
