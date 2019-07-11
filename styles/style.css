@@ -27,7 +27,7 @@ body, html{
 }
 
 .pimg2{
-  background-image:url('../images/image2.jpeg');
+  background-image:url('../images/transparent.png');
   min-height:400px;
 }
 
@@ -42,9 +42,10 @@ body, html{
 
 }
 
-.section{
-  text-align:center;
-  padding:20px;
+.project1{
+background-color: black;
+color: white;
+
 }
 
 .section-light{
@@ -62,7 +63,7 @@ body, html{
   top:50%;
   width:100%;
   text-align:center;
-  color:#fff;
+  color:black;
   font-size:27px;
   letter-spacing:8px;
   text-transform:uppercase;
@@ -159,4 +160,14 @@ position: relative;
   height: 200px;
    width: 200px;
 
+}
+
+.timeFrame{
+    text-align:center;
+    font-weight:400;
+    font-size:30px;
+}
+
+.bTH{
+  color:red;
 }

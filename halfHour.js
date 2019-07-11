@@ -1,8 +1,8 @@
 //Vanilla javascript that runs a function at a particular time period for 5 minutes by the hour.
 //Example: Shows an image for 5 minutes every 30 minutes by the hour(9:30, 10:30, 11:30, etc.).
 
-var minsMin = 30;
-var minsMax = 35;
+const minsMin = 40;
+const minsMax = 45;
 
 function printDoc1(){
 
@@ -46,7 +46,7 @@ if(hours > 12){
       return "<h2>" + timeFormat + "</h2>" +printDoc1();
   }
 else{
-  return "<h2>" + timeFormat + "</h2>";
+  return "<p>" + timeFormat + "</p>";
 }
 }
 
@@ -58,5 +58,5 @@ printDoc();
 function printDoc(){
 
 //put what is in body.
-document.querySelector(".section .second").innerHTML= checkTime();
+document.querySelector(".timeFrame").innerHTML= checkTime();
 }
