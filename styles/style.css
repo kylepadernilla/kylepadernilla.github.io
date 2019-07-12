@@ -8,6 +8,18 @@ body, html{
   line-height:1.8em;
 }
 
+a.anchor {
+    display: block;
+    position: relative;
+    top: -55px;
+    visibility: hidden; }
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+
 .pimg1, .pimg2, .pimg3, .pimg4{
   position:relative;
   background-position:center;
@@ -19,6 +31,13 @@ body, html{
   scroll = normal
   */
   background-attachment:fixed;
+}
+
+.navitem.navlink{
+  display: block;
+  position:relative;
+  top: -100px;
+  visibility:hidden;
 }
 
 .pimg1{

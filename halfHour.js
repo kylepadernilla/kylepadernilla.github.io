@@ -1,8 +1,8 @@
 //Vanilla javascript that runs a function at a particular time period for 5 minutes by the hour.
 //Example: Shows an image for 5 minutes every 30 minutes by the hour(9:30, 10:30, 11:30, etc.).
 
-const minsMin = 40;
-const minsMax = 45;
+const minsMin = 30;
+const minsMax = 35;
 
 function printDoc1(){
 
