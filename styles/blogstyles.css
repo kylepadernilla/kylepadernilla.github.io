@@ -1,0 +1,33 @@
+body, html{
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+}
+
+.navbar-nav.mr-auto li a{
+  font-family: 'Montserrat';
+
+}
+
+.navbar-nav.mr-auto{
+position: relative;
+ left: 50%;
+ transform: translatex(-50%);
+}
+
+.firstSection{
+  padding: 30px;
+  line-height:1.8em;
+}
+
+.header_image{
+    background-image:url('../images/image1.jpg');
+    position:relative;
+    background-position:center;
+    background-size:cover;
+    min-height:500px;
+
+}

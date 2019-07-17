@@ -7,7 +7,7 @@ const minsMax = 35;
 function printDoc1(){
 
 //randomizer of quotes.
-  return "<img class=\"hero\" src=images/myhero.jpg> </img>";
+  return "<style> .hero{ padding: 10px;} </style>"+  "<img class=\"hero\" src=images/myhero.jpg> </img>";
 
 }
 
