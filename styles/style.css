@@ -11,7 +11,7 @@ body, html{
 a.anchor {
     display: block;
     position: relative;
-    top: -55px;
+    top: -60px;
     visibility: hidden; }
 
 
@@ -33,12 +33,6 @@ html{
   background-attachment:fixed;
 }
 
-.navitem.navlink{
-  display: block;
-  position:relative;
-  top: -100px;
-  visibility:hidden;
-}
 
 .pimg1{
   background-image:url('../images/transparent.png');
@@ -62,9 +56,7 @@ html{
 }
 
 .project1{
-background-color: black;
-color: white;
-
+  color:white;
 }
 
 .section-light{
@@ -103,7 +95,7 @@ color: white;
 .ptext2 .border{
   background-color:#111;
   color:#fff;
-  padding:20px;
+  padding:10px;
 }
 
 .ptext3{
@@ -116,6 +108,7 @@ color: white;
   font-size:27px;
   letter-spacing:8px;
   text-transform:uppercase;
+
 }
 
 
@@ -156,7 +149,7 @@ position: relative;
 }
 
 /* Center align the text within the three columns below the carousel*/
-.container.marketing{
+.marketing{
   color:#fff;
 }
   .marketing p,.marketing h2{
@@ -189,4 +182,10 @@ position: relative;
 
 .bTH{
   color:red;
+}
+
+.firstColumn, .secondColumn{
+  background-color: black;
+  box-shadow: 5px 5px 5px grey;
+  padding: 30px;
 }
