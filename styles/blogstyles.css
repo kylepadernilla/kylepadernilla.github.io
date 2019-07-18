@@ -7,6 +7,10 @@ body, html{
   line-height:1.8em;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .navbar-nav.mr-auto li a{
   font-family: 'Montserrat';
 
@@ -42,3 +46,10 @@ color:black;
 text-align:center;
 
 }
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -70px;
+    visibility: hidden;
+   }

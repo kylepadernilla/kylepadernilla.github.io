@@ -2,7 +2,7 @@
 //Example: Shows an image for 5 minutes every 30 minutes by the hour(9:30, 10:30, 11:30, etc.).
 
 const minsMin = 30;
-const minsMax = 35;
+const minsMax = 45;
 
 function printDoc1(){
 
