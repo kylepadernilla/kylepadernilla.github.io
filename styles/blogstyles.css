@@ -23,13 +23,30 @@ position: relative;
 }
 
 .firstSection{
-  padding: 30px;
+  padding: 10px;
   line-height:1.8em;
-  background-color: #f2f2f2;
   position: relative;
+  background-color: #f2f2f2;
+  box-shadow: 2px 2px 2px grey;
   top: 30px;
   left: 10px;
 }
+
+.btn-block h2:hover {
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+}
+
+.secondSection{
+  padding: 10px;
+  line-height:1.8em;
+  position: relative;
+  background-color: #f2f2f2;
+  box-shadow: 2px 2px 2px grey;
+  top: 60px;
+  left: 10px;
+}
+
 
 .header_image{
     background-image:url('../images/image1.jpg');
@@ -40,11 +57,10 @@ position: relative;
 
 }
 
-h1.header1:hover, h1.header1{
 
-color:black;
-text-align:center;
-
+.header2 h2{
+  font-size:30px;
+  text-align:left;
 }
 
 a.anchor {
@@ -53,3 +69,11 @@ a.anchor {
     top: -70px;
     visibility: hidden;
    }
+
+.minussign {
+  text-align:right;
+}
+
+.main-content{
+padding:30px;
+}

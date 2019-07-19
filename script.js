@@ -8,3 +8,5 @@ $( '.navbar-nav a' ).on( 'click', function ()
   //set clicked element as new active element.
 	$( this ).parent( 'li' ).addClass( 'active' );
 });
+
+//const navbar = document.querySelector(".navbar-nav a");
