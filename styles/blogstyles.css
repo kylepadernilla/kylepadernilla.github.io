@@ -31,7 +31,7 @@ position: relative;
   left: 10px;
 }
 
-.btn-block h2:hover {
+.btn-block h1:hover {
     text-decoration: none;
 }
 
@@ -56,13 +56,13 @@ position: relative;
 }
 
 
-.header2 h2{
-  font-size:30px;
+.header1 h1{
+  font-size:32px;
   text-align: center;
   display: inline-block;
 }
 
-.header2 p{
+.header1 p{
   display: inline-block;
   font-size:20px;
   float:right;
@@ -80,6 +80,11 @@ a.anchor {
 }
 
 .main-content{
-padding-left:20px;
-padding-right:20px;
+padding-left:40px;
+padding-right:40px;
 padding-bottom: 40px;
+}
+
+.main-content h2{
+font-size: 25px;
+}
