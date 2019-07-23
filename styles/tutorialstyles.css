@@ -36,3 +36,17 @@ a.anchor {
     top: -70px;
     visibility: hidden;
    }
+
+.firstColumn{
+position:relative;
+top:75px;
+background-color:white;
+color:black;
+}
+
+.secondColumn{
+position:relative;
+left:50px;
+top:75px;
+background-color: white;
+}
