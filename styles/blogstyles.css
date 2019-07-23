@@ -1,3 +1,4 @@
+
 body, html{
   height:100%;
   margin:0;
@@ -19,7 +20,7 @@ html{
 .navbar-nav.mr-auto{
 position: relative;
  left: 50%;
- transform: translatex(-52%);
+ transform: translatex(-53%);
 }
 
 .firstSection{
@@ -52,7 +53,6 @@ position: relative;
     background-position:center;
     background-size:cover;
     min-height:450px;
-
 }
 
 
