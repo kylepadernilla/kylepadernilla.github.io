@@ -7,7 +7,7 @@ const minsMax = 45;
 function printDoc1(){
 
 //randomizer of quotes.
-  return "<style> .hero{ padding: 10px;} </style>"+  "<img class=\"hero\" src=images/myhero.jpg> </img>";
+  return "<style> .hero{ padding: 10px;} </style>"+  "<img class=\"hero\" src=images/myhero.jpg alt=\"My Hero Academia Meme\"> </img>";
 
 }
 
