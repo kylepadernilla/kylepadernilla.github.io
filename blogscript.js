@@ -1,18 +1,17 @@
 const expandButton= document.querySelector(".btn"); //DataButton
 const operatorSymbol= document.querySelector(".header1 p");
 
-var boolean= false;
+var boolean;
 
 function clickedIt(boolean) {
-   var canSee = expandButton.classList.contains("collapsed"); //vanilla javascript of hasclass in jquery. Most effective way to check class names.
-   boolean = canSee;
+   boolean = expandButton.classList.contains("collapsed"); //vanilla javascript of hasclass in jquery. Most effective way to check class names. Returns either T/F.
    return boolean;
 }
 
 function expand() {
-let buttonFalse=false;
+let button;
 
-var buttonClicked= clickedIt(buttonFalse);
+var buttonClicked= clickedIt(button);
 
 if(buttonClicked == true)
 {
@@ -21,4 +20,4 @@ if(buttonClicked == true)
 else{ operatorSymbol.innerHTML= "+"}
 }
 
-expandButton.addEventListener("click",expand,false);
+expandButton.addEventListener("click",expand,false); //actionlistener for button. Runs function expand whenever button is clicked.
