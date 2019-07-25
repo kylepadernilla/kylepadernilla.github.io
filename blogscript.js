@@ -10,7 +10,9 @@ function clickedIt(boolean) {
 }
 
 function expand() {
-var buttonClicked= clickedIt(boolean);
+let buttonFalse=false;
+
+var buttonClicked= clickedIt(buttonFalse);
 
 if(buttonClicked == true)
 {
