@@ -1,5 +1,5 @@
 const expandButton= document.querySelector(".btn"); //DataButton
-const operatorSymbol= document.querySelector(".header1 p");
+const operatorSymbol= document.querySelector(".header1 .operator-sign");
 
 var boolean;
 

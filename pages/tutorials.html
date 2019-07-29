@@ -59,28 +59,88 @@
 
     </nav>
 
-    <div class="header_image">
 
-      <div class="container-fluid">
+
+    <div class="container-fluid">
       <div class="row">
-          <div class="col-md-2 bg-light firstColumn">
-              <div class="sticky-top">
-              <ul>
-                <li class="list-item">
-                  <a href="#">list item</a>
-                </li><li class="list-item">
-                  <a href="#">list item</a>
-                </li>
-              </ul>
+
+
+
+        <div class="col-md-1 p-3 firstColumn">
+          <div class="position-fixed">
+            <ul>
+              <li class="list-item">
+                <a href="#accordion-example">Accordion Component</a>
+              </li><li class="list-item">
+                <a href="#javascript-example">Javascript Examples</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+
+
+        <div class="col-md-9 p-5 secondColumn" id="main">
+          <h1>Collection of Code Snippets</h1><br>
+
+             <a class="anchor" name="accordion-example"></a>
+
+          <div class="accordion-example pb-4">
+
+            <h2>Accordion Component Example</h2>
+            <br>
+            <p>Using a series of stacked panels, page content is hidden until the user opens a panel  using the provided buttons. Functionality built using "collapse" class in bootstrap and vanilla javascript <br> for interactive component for the operator symbol.</p>
+
+
+            <div class="container">
+              <div class="firstSection">
+                <button type="button" class="btn btn-sm btn-block collapsed" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+
+                  <div class="header1">
+                    <h1>Placeholder</h1>
+
+                    <p class="operator-sign">+</p>
+
+                  </div>
+
+                </button>
+                <div class="collapse mb-5" id="collapseExample">
+                  <div class="main-content">
+
+                    <p>insert main content here.</p>
+                  </div>
+                </div>
+
               </div>
+
+            </div>
+
+
+            <h3>HTML:</h3>
+
+            <img src="../images/accordionhtml.JPG" alt="html code snippet of accordion">
+
+            <h3>CSS:</h3>
+
+            <img src="../images/accordioncss.JPG" alt="css code of accordion">
+
+            <h3>Javascript:</h3>
+
+            <img src="../images/accordionjscript.JPG" alt="javascript code of accordion">
           </div>
-          <div class="col-md-7 p-3 secondColumn" id="main">
-              <h1>Collection of Code Snippets</h1>
-          <p>See the code in Jfiddle.</p>
+
+
+
+          <div class="javascript-examples p-3">
+     <a class="anchor" name="javascript-example"></a>
+            <h2>Javascript Examples</h2>
+
           </div>
+
+        </div>
       </div>
-  </div>
-      </div>
+    </div>
+
 
 
 

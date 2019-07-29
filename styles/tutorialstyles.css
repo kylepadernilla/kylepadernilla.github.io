@@ -7,6 +7,13 @@ body, html{
   line-height:1.8em;
 }
 
+body{
+  background-image:url('../images/image4.jpg');
+  background-position:top;
+  background-size:cover;
+
+}
+
 html{
   scroll-behavior: smooth;
 }
@@ -23,12 +30,6 @@ position: relative;
 }
 
 
-.header_image{
-    background-image:url('../images/image4.jpg');
-    background-position:top;
-    background-size:cover;
-    min-height:100%;
-}
 
 a.anchor {
     display: block;
@@ -38,15 +39,71 @@ a.anchor {
    }
 
 .firstColumn{
-position:relative;
-top:75px;
-background-color:white;
-color:black;
+position:fixed;
+top:60px;
+left:20px;
+white-space: nowrap;
+overflow: auto;
 }
+
+.firstColumn ul{
+background: white;
+padding:20px;
+text-align:left;
+}
+
+.firstColumn li{
+  list-style-type: none;
+  padding-bottom: 5px;
+  p
+
+}
+
+.firstColumn li a{
+color:blue;
+text-align: left;
+
+}
+
 
 .secondColumn{
 position:relative;
 left:50px;
 top:75px;
+padding:20px;
 background-color: white;
+}
+
+/* Accordion Component */
+.firstSection{
+  padding: 10px;
+  line-height:1.8em;
+  background-color: #f2f2f2;
+  box-shadow: 2px 2px 2px grey;
+}
+
+.header1 h1{
+  font-size:32px;
+  text-align: center;
+  display: inline-block;
+}
+
+.header1 .operator-sign{
+  display: inline-block;
+  font-size:20px;
+  float:right;
+}
+
+.minussign {
+  text-align:right;
+}
+
+.main-content{
+padding-left:40px;
+padding-right:40px;
+padding-bottom: 40px;
+}
+
+.main-content h2{
+font-size: 25px;
 }
