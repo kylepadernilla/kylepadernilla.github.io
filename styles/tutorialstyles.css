@@ -18,6 +18,13 @@ html{
   scroll-behavior: smooth;
 }
 
+.codesnips{
+
+  height: 90%;
+   width: 90%;
+
+}
+
 .navbar-nav.mr-auto li a{
   font-family: 'Montserrat';
 
@@ -39,31 +46,37 @@ a.anchor {
    }
 
 .firstColumn{
-position:fixed;
+position:relative;
 top:60px;
 left:20px;
-white-space: nowrap;
-overflow: auto;
 }
 
+.make-me-sticky {
+  position: -webkit-sticky;
+	position: sticky;
+	top: 60px;
+  padding: 0 15px;
+}
+
+
 .firstColumn ul{
-background: white;
-padding:20px;
-text-align:left;
+padding:10px;
+white-space: nowrap;
 }
 
 .firstColumn li{
   list-style-type: none;
   padding-bottom: 5px;
-  p
 
 }
 
 .firstColumn li a{
 color:blue;
+padding: 5px;
 text-align: left;
-
+background:white;
 }
+
 
 
 .secondColumn{
@@ -71,6 +84,7 @@ position:relative;
 left:50px;
 top:75px;
 padding:20px;
+padding-bottom: 30px;
 background-color: white;
 }
 
@@ -82,7 +96,7 @@ background-color: white;
   box-shadow: 2px 2px 2px grey;
 }
 
-.header1 h1{
+.header1 h2{
   font-size:32px;
   text-align: center;
   display: inline-block;
