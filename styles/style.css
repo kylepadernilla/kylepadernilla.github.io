@@ -45,7 +45,7 @@ html{
 
 .pimg3{
   background-image:url('../images/image3.jpg');
-  min-height:600px;
+  min-height:575px;
 }
 
 .pimg4{
@@ -149,12 +149,22 @@ position: relative;
 .marketing{
   color:#fff;
 }
-  .marketing p,.marketing h2{
+  .marketing p{
   background-color:#111;
   font-family: 'Montserrat', cursive;
   text-align: center;
   padding:20px;
+  line-height: 30px;
 }
+
+.marketing h2{
+  background-color:#111;
+  font-family: 'Montserrat', cursive;
+  text-align: center;
+  padding:20px;
+
+}
+
 
 .job_title{
   font-size:23px;
