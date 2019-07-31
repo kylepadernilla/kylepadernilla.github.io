@@ -18,12 +18,6 @@ html{
   scroll-behavior: smooth;
 }
 
-.codesnips{
-
-  height: 90%;
-   width: 90%;
-
-}
 
 .navbar-nav.mr-auto li a{
   font-family: 'Montserrat';
@@ -51,33 +45,30 @@ top:60px;
 left:20px;
 }
 
-.make-me-sticky {
+.sidebar-item{
   position: -webkit-sticky;
 	position: sticky;
-	top: 60px;
-  padding: 0 15px;
-}
-
-
-.firstColumn ul{
-padding:10px;
-white-space: nowrap;
+	top: 75px;
+  background:white;
+  width:70%;
+  padding-bottom: 20px;
+  padding-top:20px;
 }
 
 .firstColumn li{
-  list-style-type: none;
-  padding-bottom: 5px;
+list-style-type: none;
+overflow: hidden;
+position:relative;
+right:20px;
 
 }
-
 .firstColumn li a{
-color:blue;
-padding: 5px;
+padding:10px;
+white-space: nowrap;
 text-align: left;
-background:white;
+
+
 }
-
-
 
 .secondColumn{
 position:relative;
