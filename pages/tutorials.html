@@ -119,15 +119,101 @@
 
           <h3>HTML:</h3>
 
-          <img class="codesnips" src="../images/accordionhtml.JPG" alt="html code snippet of accordion">
+          <textarea name="name" rows="27" cols="80">
+            &lt;div class="container">
+            &lt;div class="firstSection">
+
+            &lt;button type="button" class="btn btn-sm btn-block collapsed" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+
+            &lt;div class="header1">
+            &lt;h2>Placeholder&lt;/h2>
+
+            &lt;p class="operator-sign">+&lt;/p>
+
+            &lt;/div>
+
+            &lt;/button>
+            &lt;div class="collapse mb-5" id="collapseExample">
+            &lt;div class="main-content">
+
+            &lt;p>insert main content here.&lt;/p>
+            &lt;/div>
+            &lt;/div>
+
+            &lt;/div>
+
+            &lt;/div>
+          </textarea>
+
 
           <h3>CSS:</h3>
 
-          <img src="../images/accordioncss.JPG" alt="css code of accordion">
+          <textarea name="name" rows="35" cols="80">
+            /* Accordion Component */
+            .firstSection{
+              padding: 10px;
+              line-height:1.8em;
+              background-color: #f2f2f2;
+              box-shadow: 2px 2px 2px grey;
+            }
+
+            .header1 h2{
+              font-size:32px;
+              text-align: center;
+              display: inline-block;
+            }
+
+            .header1 .operator-sign{
+              display: inline-block;
+              font-size:20px;
+              float:right;
+            }
+
+            .minussign {
+              text-align:right;
+            }
+
+            .main-content{
+            padding-left:40px;
+            padding-right:40px;
+            padding-bottom: 40px;
+            }
+
+            .main-content h2{
+            font-size: 25px;
+            }
+
+          </textarea>
+
 
           <h3>Javascript:</h3>
 
-          <img class="codesnips" src="../images/accordionjscript.JPG" alt="javascript code of accordion">
+          <textarea name="name" rows="28" cols="80">
+            const expandButton= document.querySelector(".btn"); //DataButton
+            const operatorSymbol= document.querySelector(".header1 .operator-sign");
+
+            var boolean;
+
+            function clickedIt(boolean) {
+               boolean = expandButton.classList.contains("collapsed"); //vanilla javascript of hasclass in jquery. Most effective way to check class names. Returns either T/F.
+               return boolean;
+            }
+
+            function expand() {
+            let button;
+
+            var buttonClicked= clickedIt(button);
+
+            if(buttonClicked == true)
+            {
+              operatorSymbol.innerHTML = "-";
+            }
+            else{ operatorSymbol.innerHTML= "+"}
+            }
+
+            expandButton.addEventListener("click",expand,false); //actionlistener for button. Runs function expand whenever button is clicked.
+
+          </textarea>
         </div>
 
 
