@@ -64,8 +64,9 @@ position: relative;
 
 .header1 .operator-sign{
   display: inline-block;
-  font-size:20px;
+  font-size:35px;
   float:right;
+  margin-right: 25px;
 }
 
 a.anchor {
