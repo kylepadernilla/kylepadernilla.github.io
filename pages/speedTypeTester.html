@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JS Typing Speed Test</title>
+    <script src="../typeSpeed.js" async></script>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i,900,900i" type="text/css" media="all">
+    <link rel="stylesheet" href="../styles/typeSpeed.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet"  href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+
+    <!--Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+      <script src="../javascript/typeSpeed.js" async></script>
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+
+    <div class="container">
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html#aboutme">About</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link dropdown-toggle"id="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+            <div class="dropdown-menu" href="" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="../index.html#bthrunner">BTH Function Runner</a>
+              <a class="dropdown-item active" href="#">Speed Typing Test</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tutorials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </nav>
+
+    <header class="masthead" style="margin-top: 50px;">
+        <h1>Test Your Typing Speed</h1>
+    </header>
+    <main class="main">
+        <article class="intro">
+            <p>This is a typing test. Your goal is to duplicate the provided text, EXACTLY, in the field below. The timer starts when you start typing, and only stops when you match this text exactly. Good Luck!</p>
+        </article><!-- .intro -->
+        <section class="test-area">
+
+            <div id="origin-text">
+                <p>Sunset is the time of day when our sky meets the outer space solar winds. There are blue, pink, and purple swirls, spinning and twisting, like clouds of balloons
+                  caught in a whirlwind. The sun moves slowly to hide behind the line of horizon, while the moon races to take its place in prominence atop the night sky.
+                  People slow to a crawl, entranced, fully forgetting the deeds that must still be done. There is a coolness, a calmness, when the sun does set.</p>
+            </div><!-- #origin-text -->
+
+            <div class="test-wrapper">
+                <textarea id="test-area" name="textarea" rows="6" placeholder="The clock starts when you start typing."></textarea>
+            </div><!-- .test-wrapper -->
+
+            <div class="meta">
+                <section id="clock">
+                    <div class="timer">00:00:00</div>
+                </section>
+
+                <button id="reset">Start over</button>
+            </div><!-- .meta -->
+        </section><!-- .test-area -->
+    </main>
+
+</body>
+
+</html>
